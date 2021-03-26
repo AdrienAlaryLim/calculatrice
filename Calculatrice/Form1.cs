@@ -128,7 +128,16 @@ namespace Calculatrice
         {
             if(affichageSaisie.Text.Equals("0"))
             {
-                affichageSaisie.Text = s;
+                if (s == "+" || s == "-" || s == "x" || s == "/")
+                {
+                    char[] charOperator = s.ToCharArray();
+                    affichageSaisie.Text = "0" + charOperator[0];
+                    setOperatorStr(charOperator[0]);
+                }
+                else
+                {
+                    affichageSaisie.Text = s;
+                }
             }
             else
             {
@@ -229,8 +238,15 @@ namespace Calculatrice
                         affichageResultat.Text = result.ToString();
                         break;
                     case '/':
-                        result = number1 / number2;
-                        affichageResultat.Text = result.ToString();
+                        if (number2 == 0)
+                        {
+                            affichageResultat.Text = "Err. div 0 impossible";
+                        }
+                        else
+                        {
+                            result = number1 / number2;
+                            affichageResultat.Text = result.ToString();
+                        }
                         break;
                     default:
                         affichageResultat.Text = "Err. calcul";
