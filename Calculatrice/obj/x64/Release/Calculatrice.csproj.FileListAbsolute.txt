@@ -1,0 +1,8 @@
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\bin\x64\Release\Calculatrice.exe.config
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\bin\x64\Release\Calculatrice.exe
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\obj\x64\Release\Calculatrice.csprojAssemblyReference.cache
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\obj\x64\Release\Calculatrice.Form1.resources
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\obj\x64\Release\Calculatrice.Properties.Resources.resources
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\obj\x64\Release\Calculatrice.csproj.GenerateResource.cache
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\obj\x64\Release\Calculatrice.csproj.CoreCompileInputs.cache
+D:\Projet\Visual studio\Csharp\Calculatrice\Calculatrice\obj\x64\Release\Calculatrice.exe
